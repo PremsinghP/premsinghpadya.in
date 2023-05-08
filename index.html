@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <title>My Website</title>
+               <h1 class="website">Premsingh Padya's Portfolio</h1>
+               <style type="text/css">
+                               .website{
+                                               background-color: rosybrown;
+                                               text-align: center;
+                                               color: darkred;
+                                               margin: auto;
+                                               width: 60%;
+                                               position: center;
+                }
+                               table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  height: auto;
+}
+td, th {
+  text-align: center;
+  padding: 70px;
+  border: 1px solid lightgoldenrodyellow;
+}
+.circle{
+                  border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table td:hover {
+  background: honeydew;
+}
+body{
+  background-color: powderblue;
+  margin: 25px;
+}
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+table{
+  border-collapse: collapse;
+  background-color: burlywood;
+}
+.data-td {
+  cursor: pointer;
+}
+.data-td:hover {
+  background-color: #eee;
+}
+#popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+#popup-header {
+  font-size: 24px;
+  margin-top: 0;
+}
+#popup-content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+#hidden{
+  display: none;
+}
+.data1{
+  background-color: whitesmoke;
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+        h1 {
+            font-size: 36px;
+        }
+        td, th {
+            padding: 10px;
+        }
+        .circle {
+            width: 70%;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        h1 {
+            font-size: 24px;
+        }
+        td, th {
+            padding: 5px;
+        }
+        .circle {
+            width: 50%;
+        }
+    }
+               </style>
+</head>
+<body>
+<form class="form">
+<table align="center">
+                <tr>
+                               <td class="data">Personal Information
+      <div class="data" id="hidden"> :
+        • Name: Premsingh Padya<br>
+• Address: Kammaripet, Velair, Hanumakonda, Telangana, 506142, India
+• Phone: +91 91824 56826
+• Email: premsinghpadya944@gmail.com
+      </div>
+    </td>
+    <td class="data1" rowspan="5"><img class="circle" src="premsinghpadya.jfif" alt="Premsingh Padya">
+        <div class="container"><p>Premsingh Padya</p></div><img class="normal" src="arrow1.png" alt="arrow1"></td>
+    <td class="data-td">Career Objective
+<div class="data" id="hidden">:
+• To secure admission to this leading Canadian university as an international student, and pursue a Master's degree in Computer Science or relevant to CS. Leveraging my experience as a software developer at HCL Technologies, I am eager to deepen my knowledge and expertise in a wide range of computer science disciplines, and to contribute to the academic community through cutting-edge research and innovation.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="data-td">Education
+       <div class="data" id="hidden">:
+   Bachelor of Technology in Computer Science and Engineering
+• Kakatiya Institute of Technology and Science (KITS), Warangal, India
+• Period of Study: 2017-2021
+• CGPA: 8.02 out of 10
+• Percentage: 80.2%
+• First Class with Distinction
+   Intermediate (10+2) in MPC
+• Government Junior College, Balanagar, Telangana, India
+• Period of Study: 2015-2017
+• Percentage: 88.6%
+• First Class with Distinction
+   Matriculation (10th Grade)
+• St. Francis School, Hyderabad, India
+• Period of Study: 2005-2015
+• CGPA: 9.5 out of 10
+• First Class with Distinction
+      </div>
+    </td>
+    <td class="data-td">Internships & Field Internships
+     <div class="data" id="hidden">:
+● Internship on Web Development where I developed an application using HTML, CSS, JAVASCRIPT, PHP at Kaashiv Infotech, Chennai.
+● Intership on Public Relations at I PAC
+● I have completed several field internships in which I have developed a range of front-end applications. For our NGO, I designed and developed a comprehensive front-end application.
+● Additionally, I developed an application that included 12 profiles for my colleagues' pportfolio
+● Furthermore, I designed and developed an application that included timers and a home ceremony feature, and deployed all of these applications onto GIT.
+● Finally, I developed two complete applications related to different companies using JavaScript. These internships have provided me with a wealth of experience and knowledge in front-end development, and have enhanced my proficiency in JavaScript.
+● I developed an attendance management application to address the issue with the current offline system in our local primary government school. My goal is to provide an efficient and accurate solution to streamline the attendance management process. I plan to launch the application soon and are committed to providing ongoing support for its success.
+      </div>
+</td>
+  </tr>
+  <tr>
+                <td class="data-td">Projects <div class="data" id="hidden">:
+ALL PAIR SHORTEST PATH FOR TRAVEL GUIDE USING GOOGLE MAPS (MINI PROJECT)
+● I developed a user-friendly travel guide as part of a project aimed at reducing costs associated with hiring professional guides while providing tourists with accurate information to aid decision making. The travel guide utilizes Google Maps API and the All pair shortest path algorithm to calculate the best and optimized route for a tourist's desired itinerary. After registering with their details, tourists can log in to their accounts and input their desired destinations. The travel guide retrieves the distances between these locations using the Google Maps API and uses the TSP algorithm to calculate all possible paths before providing the best and optimized route for the tourist to travel.
+CLASSIFICATIONS OF BANK DATASETS USING VARIOUS DATA MINING PLATFORMS (MAJOR PROJECT)
+● I have conducted a comprehensive study on information mining by evaluating the performances of various data mining programs using the bank marketing dataset. The study involved building different models based on classification algorithms and assessing their accuracy, precision, and F-measure. R, Knime, RapidMiner, and WEKA were the programs utilized for this project. The dataset was randomly partitioned into training and test datasets with different separation ratios of 75-25 and 80-20. The results indicated that decision tree algorithm and knn methods produced better results in all programs. This project can serve as a foundation for future research in working with other datasets. I am applying for MS in Canada to further expand my knowledge and expertise in this field.
+      </div>
+</td>
+    <td class="data-td">Technical Skills <div class="data" id="hidden">:
+• Proficient in Java programming, with experience developing scalable applications and services using Spring Framework and Hibernate.
+• Skilled in Adobe Experience Manager (AEM), with experience in creating static and dynamic templates, components, and client libraries, and working with sites, content and experience fragments, and digital asset management (DAM) capabilities.
+• Strong knowledge of front-end development technologies including HTML, CSS, and JavaScript, with experience in implementing responsive design and cross-browser compatibility.
+• Familiarity with web development tools and frameworks such as jQuery, Bootstrap, and AngularJS.
+• Experienced in developing and deploying applications using Apache Maven and Git, with a focus on continuous integration and delivery (CI/CD).
+• Knowledgeable in working with databases, including MySQL, Oracle, and SQL Server.
+• Familiarity with agile development methodologies, including Scrum and Kanban.
+• Proficient in C and C++ programming, with experience in developing efficient algorithms and data structures, as well as designing and implementing complex software systems.
+      </div>
+</td> 
+  </tr>
+    <tr>
+    <td class="data-td">Professional Experience <div class="data" id="hidden">:
+Software Engineer, HCL Technologies (October 2021-present)
+• Actively involved in the offshore project (C/184781.FHIN.001.Z12) since January 2022 as a Developer.
+• Part of the Development team responsible for the complete development of the AEM projects, with 100% allocation to the OFFSHORE ASSOCIATES (R001) team.
+• Worked on multiple AEM projects including MR_AMS_SS_HSB (C233379) and MR_AMS_SS_LON (C184781) which are part of the DeFNS Portal, gaining valuable experience in various aspects of AEM development such as creating static and dynamic templates, configuring components and client libs, working with content and experience fragments, and OSGi and Web Console.
+• Developed proficiency in Java programming, HTML, CSS, and JavaScript which have been instrumental in supporting and developing the applications I work on.
+Role: AEM Developer & Support
+Responsibilities:
+• Develop, test, and maintain custom AEM components using Slightly, Java, HTML, CSS, and JavaScript
+• Create and manage templates, workflows, and content structures within AEM
+• Configure and customize AEM to meet project requirements and ensure optimal performance
+• Collaborate with cross-functional teams to ensure alignment with project goals and objectives
+• Provide technical expertise and guidance to team members and stakeholders
+• Staying up-to-date with the latest AEM developments and best practices
+• Troubleshooting and resolving technical issues related to AEM as needed
+Role: Application Support Specialist
+Responsibilities:
+• Providing technical support and troubleshooting for a portfolio of applications
+• Collaborating with cross-functional teams and stakeholders to identify and resolve technical issues
+• Working directly with clients to understand their needs and provide appropriate guidance and support
+• Creating and maintaining documentation and knowledge base resources to support end-users and stakeholders
+• Completing various projects, including implementing process improvements and system enhancements, to optimize performance and user experience
+• Contributing to the timely completion of tasks and updates related to the project, ensuring that all files and documentation were updated accurately and on time.
+      </div>
+</td>
+    <td class="data-td">Addl Works <div class="data" id="hidden">:
+• Posted various personal projects and code samples on
+GitHub: https://github.com/PremsinghP
+      </div>
+</td>
+  </tr>
+  <tr>
+    <td class="data-td">Presentations <div class="data" id="hidden">:
+FIREWALL TECHNOLOGY
+● I have chosen to present on Firewall Technology as a result of the growing complexity of networks and the increased need to protect them from cyber attacks, both external and internal. As networks continue to evolve and become more open, there is a greater need for protective mechanisms to safeguard against potential threats. One such mechanism is the firewall, which serves to protect a network by controlling access points to it. With the constant evolution of technology, firewalls are also becoming increasingly sophisticated with new features being added. Despite criticisms and developmental trends, they remain a powerful protective mechanism for network security. This presentation provided an overview of Firewall Technologies, focusing on access control, security policy, and other protective mechanisms. The aim is to showcase the importance of firewall technologies in securing networks and provide insight into their current state of development.
+      </div>
+</td>
+    <td class="data-td">Extra-curricular <div class="data" id="hidden">:
+   Founder & President, Sardar V DO Society (NGO)
+• Started in 2022 - present
+• Registeration Number: 31/22 under Govt of Telangana
+• Contributing 8% of salary as Founder's fund to Society Treasury
+• Website: https://premsinghp.github.io/sardarvdo.com/
+  Blogger, providing job updates for freshers
+•  Free service exclusively for freshers
+• Blog link: https://premsinghpadya.blogspot.com/
+      </div>
+</td>
+  </tr>
+</table>
+<div id="popup-overlay">
+  <div id="popup">
+    <h2 id="popup-header"></h2>
+    <p id="popup-content"></p>
+  </div>
+</div>
+</form>
+<script type="text/javascript">
+  const tds = document.querySelectorAll('td');
+tds.forEach(td => {
+  td.addEventListener('click', () => {
+    const cellText = td.textContent;
+   
+    const popupContent = document.getElementById('popup-content');
+    popupContent.textContent = cellText;
+    const popupOverlay = document.getElementById('popup-overlay');
+    popupOverlay.style.display = 'block';
+  });
+});
+const popupOverlay = document.getElementById('popup-overlay');
+popupOverlay.addEventListener('click', () => {
+  popupOverlay.style.display = 'none';
+});
+</script>
+</body>
+</html>
