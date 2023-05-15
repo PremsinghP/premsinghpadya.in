@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=1024">
 
                <title>Premsingh Padya's Portfolio</title>
-               <h1 class="website">Premsingh Padya's Portfolio</h1>
+               <h1 class="shining-head">Premsingh Padya's Portfolio</h1>
                <style type="text/css">
-                               .website{
+                               .shining-head{
                                                background-color: rosybrown;
                                                text-align: center;
                                                color: darkred;
@@ -17,6 +17,35 @@
                                                width: 60%;
                                                position: center;
                 }
+
+
+@keyframes shining {
+  0% {
+    color: red;
+    text-shadow: 0 0 5px red;
+  }
+  25% {
+    color: blue;
+    text-shadow: 0 0 5px blue;
+  }
+  50% {
+    color: green;
+    text-shadow: 0 0 5px green;
+  }
+  75% {
+    color: yellow;
+    text-shadow: 0 0 5px yellow;
+  }
+  100% {
+    color: purple;
+    text-shadow: 0 0 5px purple;
+  }
+}
+
+.shining-head {
+  animation: shining 2s infinite;
+}
+
                                table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
